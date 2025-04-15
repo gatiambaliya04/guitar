@@ -1,6 +1,6 @@
 # Virtual Guitar using OpenCV & MediaPipe
 
-A virtual guitar built using Python, OpenCV, and MediaPipe! Control the guitar with your **thumb gestures** — open your hand to play, close your fist to mute. Simple and fun to play using just your webcam.
+A virtual guitar built using Python, OpenCV, and MediaPipe! Control the guitar with your thumb gestures — open your hand to play, close your fist to mute. Simple and fun to play using just your webcam.
 
 ---
 
@@ -16,11 +16,11 @@ A virtual guitar built using Python, OpenCV, and MediaPipe! Control the guitar w
 
 ## Requirements
 
-- Python **3.12**
-- `opencv-python`
-- `mediapipe`
-- `pygame`
-- `numpy`
+- Python 3.12
+- opencv-python
+- mediapipe
+- pygame
+- numpy
 
 ### Install with pip:
 
@@ -34,8 +34,8 @@ pip install opencv-python mediapipe pygame numpy
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Virtual-Guitar-CV.git
-   cd Virtual-Guitar-CV
+   git clone https://github.com/gatiambaliya04/guitar.git
+   cd guitar
    ```
 
 2. (Optional) Check webcam access:
@@ -62,17 +62,18 @@ string_0.wav, string_1.wav, ..., string_5.wav
 
 ## Controls
 
-- **Open Hand** ➤ Track **thumb tip** to play string  
-- **Fist** ➤ Mute all strings (no tracking)
+- Open Hand → Tracks thumb tip to play string  
+- Closed Fist → Disables tracking (mute)
 
 ---
 
 ## Dependencies
 
-This project uses **MediaPipe** for hand tracking and **OpenCV** for camera and visualization. The sounds are handled using **pygame.mixer**.
+This project uses MediaPipe for hand tracking and OpenCV for camera and visualization. The sounds are handled using pygame's mixer module.
 
 ---
 
 ## License
 
 MIT License © 2025
+
